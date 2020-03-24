@@ -1,0 +1,11 @@
+.imagem1, .imagem2, .imagem3 {
+    width: 180px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items:center;
+}

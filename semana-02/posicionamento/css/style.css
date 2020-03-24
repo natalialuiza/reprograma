@@ -1,0 +1,45 @@
+.header {
+  width: 100%;
+  display: flex;
+  background-color: red;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  flex-direction: column;
+}
+
+.menu {
+   display: flex;
+   justify-content: center;
+}
+
+.menu__item { 
+    margin: 0 16px;
+    padding: 8px;
+    list-style-type: none;
+}
+
+.menu__item__link {
+    font-size: 21px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.menu_item_link:hover {
+    background-color: #000
+}
+
+.chapeu {
+    position: absolute;
+    left: 154px;
+    top: 845px;
+    width:130px;
+    height:130px;
+}
+
+
+
+.box{
+    width: 500px;
+    height: 500px;
+}

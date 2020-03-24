@@ -1,0 +1,23 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+  padding: 40px 20px;
+  background:#000;
+  display:flex;
+
+}
+
+.nav{
+    border:1px solid red;
+}
+
+.menu {
+   display: flex;
+}
+
+.menu_item_link {
+    text-decoration: none;
+    color:#FFF;
+}
