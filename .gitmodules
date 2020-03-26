@@ -1,3 +1,6 @@
 [submodule "semana-03/T9-responsivo-git"]
 	path = semana-03/T9-responsivo-git
 	url = https://github.com/natalialuizas/T9-responsivo-git
+[submodule "semana-03/reprograma-site-responsivo"]
+	path = semana-03/reprograma-site-responsivo
+	url = https://github.com/natalialuizas/reprograma-site-responsivo.git
