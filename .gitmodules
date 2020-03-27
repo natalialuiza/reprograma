@@ -4,3 +4,6 @@
 [submodule "semana-03/reprograma-site-responsivo"]
 	path = semana-03/reprograma-site-responsivo
 	url = https://github.com/natalialuizas/reprograma-site-responsivo.git
+[submodule "semana-03/mundo-gelado"]
+	path = semana-03/mundo-gelado
+	url = https://github.com/natalialuizas/mundo-gelado.git
