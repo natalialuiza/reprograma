@@ -7,3 +7,6 @@
 [submodule "semana-03/mundo-gelado"]
 	path = semana-03/mundo-gelado
 	url = https://github.com/natalialuizas/mundo-gelado.git
+[submodule "semana-04/T9-projeto-1-m-de-maravilhosa"]
+	path = semana-04/T9-projeto-1-m-de-maravilhosa
+	url = https://github.com/natalialuizas/T9-projeto-1-m-de-maravilhosa.git
