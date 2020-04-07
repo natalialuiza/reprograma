@@ -39,9 +39,11 @@ alert(`A média de combustível gasto por quilômetro ${ distancia / qtdLitros }
 const precoDesconto = parseFloat(prompt('Informe o valor do produto com desconto'));
 const precoBruto = parseFloat(prompt('Informe o valor do produto sem desconto'));
 
-let porcentagem =  100 - (( precoDesconto / precoBruto) * 100);
+let porcentagem =  precoDesconto * 100 /  precoBruto;
 
-alert(`Porcentagem de desconto do produto ${porcentagem} % ` )
+
+
+alert(`Porcentagem de desconto do produto ${porcentagem} % ` );
 
 
 // 7. Zenir é responsável por colocar a duração dos filmes no letreiro do cinema comunitário. A duração deve ser mostrada em minutos, mas alguns dos filmes exibidos vieram com a informação em horas e minutos. Ajude Zenir, ela tem mais o que fazer do que ficar fazendo conta.
