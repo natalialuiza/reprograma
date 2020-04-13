@@ -24,22 +24,12 @@ console.log('Tipo da Variavel 3 é', typeof(variavel3));
    - 1 console.info() */
 
  const log = document.querySelector('#log');
- const info = document.querySelector('#info');
- const buttonError = document.querySelector('#error')
-
 
  log.addEventListener('click', messageLog);
- info.addEventListener('click', messageInfo);
- buttonError.addEventListener('click', messageError);
 
  function messageLog() {
      console.log('Oi, isso é uma mensagem de log');
- }
-
- function messageInfo() {
      console.info('Oi, isso é uma mensagem de informação');
- }
-
- function messageError() {
      console.error('Oi, isso é uma mensagem de erro');
  }
+ 
