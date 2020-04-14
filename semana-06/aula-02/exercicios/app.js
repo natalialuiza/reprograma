@@ -13,12 +13,12 @@ A mensagem "Aprovado com Distinção", se a média for igual a dez.*/
 const nota1 = Number(prompt('Informe a nota 1'));
 const nota2 = Number(prompt('Informe a numero '));
 
-const media = (nota1 * nota2 / 10);
+const media = (nota1 + nota2) / 2;
 
-if(media >= 7 && media < 10){
-    alert('Aprovado');
-} else if(media === 10) {
+if(media === 10){
     alert('Aprovado com Distinção');
+} else if(media >= 7) {
+    alert('Aprovado');
 } else {
     alert('reprovado');
 }
