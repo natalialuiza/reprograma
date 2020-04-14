@@ -24,17 +24,17 @@ if(media >= 7 && media < 10){
 }
 
 // 3. Faça um script que leia três números inteiros e mostre o maior deles.
-// const numero1 = Number(prompt('Informe a numero 1'));
-// const numero2 = Number(prompt('Informe a numero 2'));
-// const numero3 = Number(prompt('Informe a numero 3'));
+ const numero1 = Number(prompt('Informe a numero 1'));
+ const numero2 = Number(prompt('Informe a numero 2'));
+ const numero3 = Number(prompt('Informe a numero 3'));
 
-// if(numero1 > numero2 && numer1 > numero3){
-//     alert('Numero 1 é maior')
-// } else if (numero2 > numero1 && numero2 > numero3){
-//     alert('Numero 2 é maior')
-// } else {
-//     alert('Numero 3 é maior')
-// }
+if(numero1 > numero2 && numer1 > numero3){
+     alert('Numero 1 é maior')
+ } else if (numero2 > numero1 && numero2 > numero3){
+     alert('Numero 2 é maior')
+ } else {
+     alert('Numero 3 é maior')
+ }
 
 /*4. Faça um script que pede dois inteiros e armazene eles em duas variáveis. Em seguida, troque o valor das variáveis, invertendo e exibindo o antes e o depois em uma janela de alert.
 Fazer duas variáveis trocarem de valores entre si - Variável Auxiliar*/
