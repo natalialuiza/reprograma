@@ -32,6 +32,8 @@ if(numero1 > numero2 && numer1 > numero3){
      alert('Numero 1 é maior')
  } else if (numero2 > numero1 && numero2 > numero3){
      alert('Numero 2 é maior')
+ } else if( numero1 === numero2 & numero1 === numero3){
+     alert('Numeros Iguais')
  } else {
      alert('Numero 3 é maior')
  }
@@ -46,3 +48,66 @@ let auxiliar = numero1;
 numero1 = numero2;
 numero2 = auxiliar;
 alert(`O numero 1 é: ${numero1}, o numero 2 é ${numero2}`)
+
+
+
+
+// Transforme os ifs abaixo em if ternario (condicao ? exp 1 : exp2 ).
+
+/*1. 
+if(a > 0) {
+resultado = "valor maior que 0";
+} else {
+resultado = "valor = 0";
+}*/
+
+let a = 10;
+
+a > 0 ? console.log('valor maior que 0') : console.log('valor = 0');
+
+
+/*2.
+if(sexo === 'feminino') {
+alert('seja bem vinda');
+} else {
+alert('seja bem vindo')
+}*/
+
+let sexo = 'masculino'
+
+sexo === 'feminino' ? console.log('Seja bem vinda') : console.log('seja bem vindo')
+
+
+// 3.
+// var isIphone = false;
+// var os;
+
+// if (isIphone) {
+//   os = "iOS";
+// } else {
+//   os = "Android";
+// }
+
+const isIphone = false;
+const os;
+
+os = (isIphone) ? 'ios' : 'android'
+consoel.log(os);
+
+/* Crie uma variável chamada “fruta”. Esta variável deve receber uma string com o nome de uma fruta. Após, crie uma estrutura condicional switch que receba esta variável e que possua três casos: caso maçã, retorne no console: “Não vendemos esta fruta aqui”. Caso kiwi, retorne: “Estamos com escassez de kiwis” e caso melancia, retorne: “Aqui está, são 3 reais o quilo”. Teste com estas três opções e verifique o console do seu navegador. Crie também um default, que retornará uma mensagem de erro no console.*/
+
+const fruta = prompt('Informe a fruta que você deseja compra')
+
+switch(fruta){
+    case 'maçã':
+        console.log('Não vendemos esta fruta aqui')
+    break;
+    case 'kiwi': 
+    console.log('Estamos com escassez de kiwis')
+    break;
+    case 'melancia':
+        console.log('Aqui está, são 3 reais o quilo')
+    break;
+    default:
+         console.log('opss opção errada')
+}
