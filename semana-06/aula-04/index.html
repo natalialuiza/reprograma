@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 04</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Reprograma</h1>
+    <label for="">Valor 1:</label>
+    <input type="text" onchange="capturarValor1(this.value)"></input>
+    <label for="">Valor 2:</label>
+    <input type="text" onchange="capturarValor2(this.value)"></input>
+    <br>
+    <button onclick="calculator('+')">Somar</button>
+    <button onclick="calculator('-')">Subtrair</button>
+    <button onclick="calculator('*')">Multiplicar</button>
+    <button onclick="calculator('/')">Dividir</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
