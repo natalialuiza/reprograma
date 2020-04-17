@@ -61,3 +61,35 @@ console.log(somaImpares, 'soma de numero impares');
 console.log(somaPares, 'soma de numeros pares');
 
 
+/*6.Faça um programa que receba a idade, o peso e o sexo de 10 pessoas. Calcule e imprima:
+total de homens;
+total de mulheres;
+média das idades dos homens;
+média dos pesos das mulheres. */
+
+let mulheres = 0, homens = 0, mediaIdadeH = 0, mediaPesoM = 0, peso, sexo;
+
+for(let i = 0; i< 10; i++){
+   sexo = prompt('Informe seu sexo F - (Feminino) M - (Masculino)')
+
+   if(sexo === 'F') {
+    peso = parseInt(prompt('Informe o peso'));
+    idade = parseInt(prompt('Informe a idade'));
+    mediaPesoM += peso;
+    mulheres++;
+   } else {
+    peso = parseInt(prompt('Informe o peso'));
+    idade = parseInt(prompt('Informe a idade'));
+    mediaIdadeH += idade;
+    homens++;
+   }
+}
+ mediaIdadeH /= homens;
+ mediaPesoM /= mulheres;
+
+console.log('Total de homens', homens);
+console.log('Total de mulheres', mulheres);
+console.log('Média das idades dos homens:', mediaIdadeH)
+console.log('Média dos pesos das mulheres:', mediaPesoM)
+
+
