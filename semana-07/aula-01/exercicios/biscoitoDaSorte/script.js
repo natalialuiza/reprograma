@@ -80,6 +80,31 @@ const frases = ["A vida trará coisas boas se tiveres paciência.",
   1. selecione a imagem do biscoito da sorte.
   2. selecione o parágrafo que receberá a mensagem da sorte.
   3. crie a função "fraseDaSorte", essa função deve alterar o texto do parágrafo para uma frase randômica do array acima.
-
     
 */
+  const paragraph = document.querySelector('#message')
+ 
+  function gerarFrase() {
+    let radom = Math.floor(Math.random() * frases.length)
+    return frases[radom];
+  }
+
+
+  function fraseDaSorte() {
+    paragraph.style.margin = '50px';
+    paragraph.style.fontSize = '26px';
+    paragraph.classList.remove('texto');
+    paragraph.classList.add('mensagemExibindo');
+    paragraph.innerHTML = gerarFrase();
+    return typeWrite(paragraph);
+  }
+
+ function typeWrite(element) {
+   const textArray = element.innerHTML.split('');
+   element.innerHTML = '';
+   textArray.forEach((letra, i) => {
+     setTimeout(() => {
+      element.innerHTML += letra;
+     }, 75 * i)
+   });
+ }

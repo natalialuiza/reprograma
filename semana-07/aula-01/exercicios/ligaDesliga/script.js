@@ -10,3 +10,11 @@
 
     
 */
+ const body = document.querySelector('body')
+
+ const changeBg = () => {
+  if(body.style.backgroundColor === 'green') {
+     return  body.style.backgroundColor = 'red';
+  }
+   body.style.backgroundColor = 'green'
+ }
