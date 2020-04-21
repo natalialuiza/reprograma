@@ -91,8 +91,6 @@ const frases = ["A vida trará coisas boas se tiveres paciência.",
 
 
   function fraseDaSorte() {
-    paragraph.style.margin = '50px';
-    paragraph.style.fontSize = '26px';
     paragraph.classList.remove('texto');
     paragraph.classList.add('mensagemExibindo');
     paragraph.innerHTML = gerarFrase();

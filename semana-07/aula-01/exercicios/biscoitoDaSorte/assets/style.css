@@ -27,11 +27,24 @@ img {
   font-weight: bold;
 }
 
+
 .mensagemExibindo::after {
   content: '|';
   margin-left: 5px;
   opacity: 1;
   animation: pisca .7s infinite;
+}
+
+.mensagemExibindo {
+  margin: 50px;
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .mensagemExibindo {
+    margin: 80px;
+    font-size: 26px;
+  }
 }
 
 @keyframes pisca {
