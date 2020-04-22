@@ -89,20 +89,19 @@ const frases = ["A vida trará coisas boas se tiveres paciência.",
     return frases[radom];
   }
 
-
   function fraseDaSorte() {
     paragraph.classList.remove('texto');
     paragraph.classList.add('mensagemExibindo');
-    paragraph.innerHTML = gerarFrase();
+    paragraph.innerText = gerarFrase();
     return typeWrite(paragraph);
   }
 
  function typeWrite(element) {
-   const textArray = element.innerHTML.split('');
-   element.innerHTML = '';
+   const textArray = element.innerText.split('');
+   element.innerText = '';
    textArray.forEach((letra, i) => {
      setTimeout(() => {
-      element.innerHTML += letra;
+      element.innerText += letra
      }, 75 * i)
    });
  }
