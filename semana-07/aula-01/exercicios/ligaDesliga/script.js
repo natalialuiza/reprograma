@@ -14,7 +14,8 @@
 
  const changeBg = () => {
   if(body.style.backgroundColor === 'green') {
-     return  body.style.backgroundColor = 'red';
+    body.style.backgroundColor = 'red';
+    return  
   }
    body.style.backgroundColor = 'green'
  }
