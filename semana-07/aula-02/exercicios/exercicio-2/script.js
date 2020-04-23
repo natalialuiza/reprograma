@@ -15,45 +15,26 @@
   
 */
 
-const arrayList = [
-  {
-    titulo:'Harry potter e a Pedra Filosofal',
-    autora: 'J. K. Rowling',
-    capa: 'img/harry1.jpg'
-  },
-  {
-    titulo:'Harry potter e a Câmara Secreta',
-    autora: 'J. K. Rowling',
-    capa: 'img/harry2.jpg'
-  },
-  {
-    titulo:'Harry potter e a Ordem da Fênix',
-    autora: 'J. K. Rowling',
-    capa: 'img/harry3.jpg'
-  },
-  {
-    titulo:'Harry potter e a Enigma do principe',
-    autora: 'J. K. Rowling',
-    capa: 'img/harry4.jpg'
-  },
-
-]
- 
-
 const body = document.querySelector('body')
+const nickname = document.querySelector('#nickname');
+const favorites =  document.querySelector('#favorites');
+const hometown = document.querySelector('#hometown');
+const nome = document.querySelector('h1');
+const li = document.querySelectorAll('li');
+const newPhoto = document.createElement('img');
 
-for(let count = 0; count < arrayList.length; count++){
+body.style.fontFamily = 'Arial, sans-serif';
+nome.innerText = 'Natália Luiza';
+nickname.innerText = 'natxlu';
+favorites.innerHTML = 'mtb, cozinhar, series';
+hometown.innerText = 'São Paulo, SP';
 
-  const divBook = document.createElement('div')
-  const paragraph = document.createElement('p')
-  const title = document.createElement('h2')
-  const imgCapa = document.createElement('img')
-  title.innerText = `Titulo: ${arrayList[count].titulo}`
-  paragraph.innerText = `Autora ${arrayList[count].autora}`
-  imgCapa.src = arrayList[count].capa
-  divBook.appendChild(title);
-  divBook.appendChild(paragraph);
-  divBook.appendChild(imgCapa);
-  body.appendChild(divBook);
-  console.log(divBook)
+for(let i = 0; i < li.length; i++){
+  li[i].classList = 'list-item';
 }
+
+newPhoto.src = 'https://avatars3.githubusercontent.com/u/43760157?s=460&u=280f28bb99ed985034c25ea905f0b389444158b8&v=4';
+
+body.appendChild(newPhoto);
+
+
