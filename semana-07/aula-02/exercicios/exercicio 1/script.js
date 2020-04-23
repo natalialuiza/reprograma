@@ -8,9 +8,14 @@
   
 */
 
-function insertion(el,id,text){
-  //seu código aqui
+function insertionElement(el,id,text){
+  const element = document.createElement(el);
+  const elementId = document.querySelector(id);
+  element.innerText = text;
+  elementId.appendChild(element);
 }
  
 //a função de criar um parágrafo dentro do elemento com ID "conteudo" e com o texto "Fui criado com Javascript"
-insertion('p', "conteudo", "Fui criado com Javascript")
+insertionElement('h1', "#container", "Fui criado com Javascript")
+insertionElement('p', "#texto", "Esse texto foi criado por uma função js")
+insertionElement('strong', "#texto2", "feito por js")
