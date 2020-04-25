@@ -12,3 +12,30 @@
 
 */
 
+window.addEventListener('DOMContentLoaded', function () {
+
+  const gatinhos = document.querySelectorAll('.item__imagem')
+
+  for (let i = 0; i < gatinhos.length; i++) {
+    const estilo = () => {
+      gatinhos[i].style.display = 'none'
+    }
+    gatinhos[i].addEventListener('click', estilo)
+  }
+
+  // outra solução 
+  //const gatinhos = document.querySelectorAll(".item__imagem");
+
+  // gatinhos.forEach(function(gato) {
+  //     gato.addEventListener("click", function(evento) {
+  //         if (gato.classList.contains("invisivel")) {
+  //             gato.classList.remove("invisivel");
+  //         } else {
+  //             gato.classList.add("invisivel");
+  //         }
+  //     })
+  // })
+
+})
+
+
