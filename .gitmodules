@@ -10,3 +10,6 @@
 [submodule "semana-04/T9-projeto-1-m-de-maravilhosa"]
 	path = semana-04/T9-projeto-1-m-de-maravilhosa
 	url = https://github.com/natalialuizas/T9-projeto-1-m-de-maravilhosa.git
+[submodule "semana-08/todo-list"]
+	path = semana-08/todo-list
+	url = https://github.com/natalialuizas/todo-list.git
