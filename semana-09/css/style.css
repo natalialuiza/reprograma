@@ -5,10 +5,15 @@
 
 a:hover {
    font-weight: bold;
+   
 }
 
 .img_carousel {
    object-position: 0 40%;
    height: 65vh;
    object-fit: cover;
+}
+
+a{
+   color: inherit;
 }
