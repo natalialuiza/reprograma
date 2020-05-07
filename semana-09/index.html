@@ -22,13 +22,13 @@
       <div class="collapse navbar-collapse justify-content-end" id="menudesktop">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Habilidades</a>
+            <a class="nav-link text-white" href="#habilidades">Habilidades</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Sobre</a>
+            <a class="nav-link text-white" href="#sobre">Sobre</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Portifolios</a>
+            <a class="nav-link text-white" href="#portifolios">Portifolios</a>
           </li>
         </ul>
       </div>
@@ -84,7 +84,7 @@
   <!-- SOBRE / HABILIDADES-->
   <section class="bg-roxo text-white d-flex flex-column flex-lg-row justify-content-lg-around p-4">
 
-    <div class="habilidades  w-100">
+    <div class="habilidades  w-100" id="habilidades">
       <h2 class="text-center">Habilidades</h2>
       <div class="icones pt-3 row justify-content-center">
         <div>
@@ -132,7 +132,7 @@
       </div>
     </div>
 
-    <div class="sobre text-center w-100">
+    <div class="sobre text-center w-100" id="sobre">
       <h2>Sobre</h2>
       <p class="pt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur tempore laborum repellat
         saepe, voluptas
@@ -142,14 +142,16 @@
   </section>
 
   <!-- Projetos -->
-  <section class="row justify-content-around mb-5 modal-cards">
+  <section class="text-center mt-5" id="portifolios">
+    <h2>Projetos</h2>
+  <div class="row justify-content-around mb-5 modal-cards">
 
     <!-- Card Projeto M de Maravilhosa -->
     <div class="card m-5" style="width: 18rem;">
       <img src="./img/grace-m-maravilhosas.png" class="card-img-top" alt="Projeto M de Maravilhosa">
       <div class="card-body">
         <h5 class="card-title">Projeto M de Maravilhosa</h5>
-        <p class="card-text">Projeto Desenvolvido na quarta semana</p>
+        <p class="card-text">Projeto Desenvolvido na quarta semana do bootcamp da reprograma</p>
       </div>
       <button type="button" class="m-5 btn bg-roxo text-white m-auto" data-toggle="modal" data-target="#modal1">
         Veja mais
@@ -171,7 +173,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-            <a href="#" target="blank" class="btn bg-roxo text-white">Ver página</a>
+            <a href="https://grace-murray-hopper.netlify.app/personalidade/grace-hopper/index.html" target="blank" class="btn bg-roxo text-white">Ver página</a>
           </div>
         </div>
       </div>
@@ -182,7 +184,7 @@
       <img src="./img/todo-list.png" class="card-img-top" alt="Projeto Todo List">
       <div class="card-body">
         <h5 class="card-title">Projeto Todo List</h5>
-        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <p class="card-text">Projeto Desenvolvido na sétima semana do bootcamp da reprograma</p>
       </div>
       <button type="button" class="m-5 btn bg-roxo text-white m-auto" data-toggle="modal" data-target="#modal2">
         Veja mais
@@ -204,7 +206,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-            <a href="#" target="blank" class="btn bg-roxo text-white">Ver página</a>
+            <a href="https://natalialuizas.github.io/todo-list" target="blank" class="btn bg-roxo text-white m-auto">Ver página</a>
           </div>
         </div>
       </div>
@@ -215,7 +217,7 @@
       <img src="./img/mundo-gelado.png" class="card-img-top" alt="Projeto Mundo Gelado">
       <div class="card-body">
         <h5 class="card-title">Projeto Mundo Gelado</h5>
-        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <p class="card-text">Projeto Desenvolvido na terceira semana do bootcamp da reprograma</p>
       </div>
       <button type="button" class="m-5 btn bg-roxo text-white m-auto" data-toggle="modal" data-target="#modal3">
         Veja mais
@@ -237,13 +239,13 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-            <a href="#" target="blank" class="btn bg-roxo text-white">Ver página</a>
+            <a href="https://natalialuizas.github.io/mundo-gelado" target="blank" class="btn bg-roxo text-white m-auto">Ver página</a>
           </div>
         </div>
       </div>
     </div>
-
-  </section>
+  </div>
+</section>
   <footer class="bg-roxo footer mt-auto py-3 text-center text-white">
     <p>
       Desenvolvido com bootstrap por Natália Luiza, enquanto aluna da
