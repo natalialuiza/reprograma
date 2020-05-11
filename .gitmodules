@@ -14,3 +14,6 @@
 [submodule "semana-08/todo-list"]
 	path = semana-08/todo-list
 	url = https://github.com/natalialuizas/todo-list.git
+[submodule "semana-10/T9-jquery"]
+	path = semana-10/T9-jquery
+	url = https://github.com/natalialuizas/T9-jquery.git

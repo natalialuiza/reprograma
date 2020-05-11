@@ -3,8 +3,13 @@
    background-color:#7E459B;
 }
 
+.link__color {
+   color: #7E459B;
+}
+
 a:hover {
    font-weight: bold;
+   color: inherit;
    
 }
 
