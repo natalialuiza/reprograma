@@ -17,3 +17,6 @@
 [submodule "semana-10/T9-jquery"]
 	path = semana-10/T9-jquery
 	url = https://github.com/natalialuizas/T9-jquery.git
+[submodule "semana-11/projeto-cozinha-da-re"]
+	path = semana-11/projeto-cozinha-da-re
+	url = https://github.com/natalialuizas/projeto-cozinha-da-re.git
