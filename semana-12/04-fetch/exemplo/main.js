@@ -5,22 +5,17 @@ const bairroInput = document.getElementById("bairro")
 const localidadeInput = document.getElementById("localidade")
 const ufInput = document.getElementById("uf")
 
-cepInput.addEventListener("blur", ()=>{
-    if(cepInput.value){
-        fetch(`https://viacep.com.br/ws/${cepInput.value}/json`).then(response => {
-            return response.json()
-        }).then(json => {
-            ///façam aparecer os valores nos inputs
-            preencheInputs(json)
-        })
-    }
+cepInput.addEventListener("blur", () => {
+    fetch(`https://viacep.com.br/ws/${cepInput.value}/json/`)
+     .then(response => response.json())
+     .then(obj => preencherInputs(obj))
 })
 
-
-preencheInputs = objeto => {
-    logradouroInput.value = objeto.logradouro
-    complementoInput.value = objeto.complemento
-    bairroInput.value = objeto.bairro
-    localidadeInput.value = objeto.localidade
-    ufInput.value = objeto.uf
+const preencherInputs = (obj) => {
+    logradouroInput.value = obj.logradouro
+    complementoInput.value = obj.complemento
+    bairroInput.value = obj.bairro
+    localidadeInput.value = obj.localidade
+    ufInput.value = obj.uf
 }
+
