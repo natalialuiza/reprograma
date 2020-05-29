@@ -41,7 +41,16 @@ const notasAlunasFinais = notasAlunas.map(({ nome, notas}) => {
       somaNotas += nota * peso
       somaPesos += peso;
     }
-    let notaFinal = somaNotas / somaPesos
+   
+
+  // const somaNotas = notas.reduce((somaNotas, {nota}) => { 
+  //   return somaNotas += nota
+  // }, 0)
+
+  // const somaPesos = notas.reduce((somaPesos, {peso}) => { 
+  //   return somaPesos += peso
+  // }, 0)
+  let notaFinal = somaNotas / somaPesos
 
    return { nome, notaFinal}
 })
@@ -65,7 +74,7 @@ const pessoas = [
   { nome: "Monica", area: "medicina", profissao: "cardiologista"},
 ];
 
-const profissionaisTI = pessoas.filter(pessoa => pessoa.area === "TI")
+const profissionaisTI = pessoas.filter(({area}) => area === "TI")
 
 // 3) Criar um array somente com alunas que passaram de ano (media > 5)
 
@@ -91,11 +100,8 @@ const transacoes = [
   { descricao: "salario 1", valor: 8500, tipo: "saída" }
 ];
 
-const lucro = transacoes.reduce((accumulator, { tipo, valor})  => {
-  if (tipo === 'entrada') {
-    return accumulator += valor;
-  }
-  return accumulator;
+const lucro = transacoes.reduce((acumulador, {tipo, valor})  => {
+  return tipo === 'entrada' ? (acumulador + valor) : (acumulador - valor);
 }, 0)
 
 
