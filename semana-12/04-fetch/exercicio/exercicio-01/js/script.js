@@ -16,19 +16,20 @@ const renderizaCarta = carta => {
   cardSection.innerHTML = novaCarta 
 }
 
-const randomCard = cartas => cartas[(Math.floor(Math.random() * cartas.length))]
+renderizaCarta(placeholderCard)
 
+const randomCard = cartas => cartas[(Math.floor(Math.random() * cartas.length))]
 
 btn.addEventListener('click', () => {
   fetch('https://raw.githubusercontent.com/reprograma/T9-JS-III/final/04-fetch/exercicio/tarot.json')
   .then(dadosCartas => dadosCartas.json())
   .then(cartas => {
     let cartaSorteada = randomCard(cartas)
-    renderizaCarta(cartaSorteada)
+   return renderizaCarta(cartaSorteada)
   })
 })
 
-renderizaCarta(placeholderCard)
+
 
 
 
