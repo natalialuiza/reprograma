@@ -5,3 +5,6 @@ const professoras = ["Melissa", "Jéssica", "Bruna", "Emanuelle"]
 Item: "Ana"
 
 Em seguida, mostre no console.log()*/
+professoras.unshift('Ana')
+
+console.log(professoras)

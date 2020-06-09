@@ -12,14 +12,14 @@ const Nome = 'Maria';
 
 const NAME = 'Patrícia';
 
-console.log(nome);
-// "Robin Wieruch"
+console.log(name);
+// "Gabriele"
 
-console.log(nome);
-// "Dennis Wieruch"
+console.log(Nome);
+// "Maria"
 
 console.log(NAME);
-// "Thomas Wieruch"
+// "Patrícia"
 
 /*Uma variável deve ser auto-descritiva.
 Não deve ser necessário adicionar um comentário para documentação adicional
