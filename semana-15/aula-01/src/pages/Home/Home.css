@@ -1,3 +1,28 @@
-.fundo {
-  background-color: red;
+.centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box__buttons{
+  margin: 10px;
+}
+
+button {
+  margin: 5px;
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid rgb(80, 80, 80);
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 16px;
 }
