@@ -20,3 +20,6 @@
 [submodule "semana-11/projeto-cozinha-da-re"]
 	path = semana-11/projeto-cozinha-da-re
 	url = https://github.com/natalialuizas/projeto-cozinha-da-re.git
+[submodule "semana-16/tech-jobs"]
+	path = semana-16/tech-jobs
+	url = git@github.com:natalialuizas/tech-jobs.git
