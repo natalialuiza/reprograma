@@ -4,9 +4,12 @@ import Card from './components/Card/Card'
 import Batman from './img/batman.jpg'
 import Superman from './img/superman.jpeg'
 import MulherMaravilha from './img/mulhermaravilha.jpeg'
+import Input from './components/Input/Input'
+
 function App() {
   return (
     <>
+    <Input />
     <Card 
      titulo="Batman"
      arquivo={Batman}
@@ -22,7 +25,7 @@ function App() {
      arquivo={MulherMaravilha}
      texto= "Eu sou a Mulher Maravilha"
      />
-     </>
+    </>
   );
 }
 
