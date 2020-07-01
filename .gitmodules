@@ -23,3 +23,6 @@
 [submodule "semana-16/tech-jobs"]
 	path = semana-16/tech-jobs
 	url = git@github.com:natalialuizas/tech-jobs.git
+[submodule "semana-17/T9-cvs"]
+	path = semana-17/T9-cvs
+	url = git@github.com:natalialuizas/T9-cvs.git
