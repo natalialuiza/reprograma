@@ -26,3 +26,6 @@
 [submodule "semana-17/T9-cvs"]
 	path = semana-17/T9-cvs
 	url = git@github.com:natalialuizas/T9-cvs.git
+[submodule "semana-18/T9-React-III"]
+	path = semana-18/T9-React-III
+	url = git@github.com:natalialuizas/T9-React-III.git
