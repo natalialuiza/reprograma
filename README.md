@@ -14,12 +14,12 @@ O Reprograma é um bootcamp gratuito que capacita mulheres na área de tecnologi
 - [x] Semana 09: Bootstrap (Bootstrap e tecnologias assistivas)
 - [x] Semana 10: Jquery (Jquery e Scrum)
 - [x] Semana 11: Projeto 3 (Cliente reais)
-- [x] Semana 12: JAVASCRIPT III
-- [x] Semana 13: JAVASCRIPT IV
-- [x] Semana 14: JAVASCRIPT EXTRA
-- [x] Semana 15: REACT I
-- [x] Semana 16: REACT II
-- [x] Semana 17: CARREIRA
-- [x] Semana 18: REACT III
-- [x] Semana 19: REACT EXTRA
+- [x] Semana 12: JavaScript III
+- [x] Semana 13: JavaScript IV
+- [x] Semana 14: JavaScript Extra
+- [x] Semana 15: React I
+- [x] Semana 16: React II
+- [x] Semana 17: Carreira
+- [x] Semana 18: React III
+- [x] Semana 19: React Extra
 - [ ] Semana 20: Projeto Final (Boot4Free)
