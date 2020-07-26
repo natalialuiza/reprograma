@@ -29,3 +29,6 @@
 [submodule "semana-18/T9-React-III"]
 	path = semana-18/T9-React-III
 	url = git@github.com:natalialuizas/T9-React-III.git
+[submodule "semana-20/boot4free"]
+	path = semana-20/boot4free
+	url = git@github.com:natalialuizas/boot4free.git
