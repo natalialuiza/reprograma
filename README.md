@@ -22,4 +22,4 @@ O Reprograma é um bootcamp gratuito que capacita mulheres na área de tecnologi
 - [x] Semana 17: Carreira
 - [x] Semana 18: React III
 - [x] Semana 19: React Extra
-- [ ] Semana 20: Projeto Final (Boot4Free)
+- [x] Semana 20: Projeto Final (Boot4Free)
